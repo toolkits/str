@@ -1,9 +1,9 @@
 package str
 
 import (
-    "fmt"
-    "time"
+	"fmt"
 	"math/rand"
+	"time"
 )
 
 var letters = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
