@@ -50,4 +50,3 @@ func RandDigits(n int) string {
 
 	return fmt.Sprintf("%s", string(b))
 }
-

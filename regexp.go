@@ -58,3 +58,7 @@ func HasDangerousCharacters(str string) bool {
 
 	return false
 }
+
+func Dangerous(str string) bool {
+	return HasDangerousCharacters(str)
+}
