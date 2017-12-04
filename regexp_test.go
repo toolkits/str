@@ -51,3 +51,11 @@ func TestIsPhone3(t *testing.T) {
 		t.Errorf("TestIsPhone3:\n Expect => %v\n Got    => %v\n", expect, got)
 	}
 }
+
+func TestIsPhone4(t *testing.T) {
+	got := IsPhone("186121855232342342")
+	expect := false
+	if got != expect {
+		t.Errorf("TestIsPhone4:\n Expect => %v\n Got    => %v\n", expect, got)
+	}
+}

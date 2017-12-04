@@ -29,9 +29,9 @@ func IsMail(val string) bool {
 
 func IsPhone(val string) bool {
 	if strings.HasPrefix(val, "+") {
-		return IsMatch(val[1:], `\d{13}`)
+		return IsMatch(val[1:], `^\d{13}$`)
 	} else {
-		return IsMatch(val, `\d{11}`)
+		return IsMatch(val, `^\d{11}$`)
 	}
 }
 
